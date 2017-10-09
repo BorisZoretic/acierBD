@@ -1,0 +1,307 @@
+body {
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+td, th, tr {
+    border: 2px solid black !important;
+}
+td {
+    min-width: 58px;
+}
+#formPrimeSemaine .col-lg-4, #formPrimeSemaine .col-md-4 {
+    width: 33.3%;
+}
+.nav-link.logout{
+	padding-right:25px;
+	color:white;
+}
+#formLogin {
+	background-color: rgb(37, 51, 112);
+	padding: 30px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+#formLogin input[value="Connexion"] {
+	float: right;
+	cursor: pointer;
+}
+
+#error {
+	color: white;
+}
+
+#errorForm {
+	color: white;
+	float: left;
+width:1px;
+
+}
+.editable:hover {
+    text-decoration: underline;
+}
+a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover{
+	text-decoration:none;
+}
+
+tr.success, tr.success>td, tr.success>form, tr.success>form>input {
+	background-color: #dff0d8 !important;
+}
+tr.Wsuccess, tr.Wsuccess>td, tr.Wsuccess>form, tr.Wsuccess>form>input {
+	background-color: #dff0d8 !important;
+}
+
+tr.danger, tr.danger>td, tr.danger>form, tr.danger>input {
+	background-color: #f2dede !important;
+}
+
+input {
+	background-color: transparent !important;
+}
+
+#mainNav .navbar-collapse .navbar-nav.sidebar-nav {
+	margin-top: 54px;
+}
+
+.scroll-to-top {
+	display: table;
+	border-radius: 0px !important;
+}
+
+.underlineBtn:hover{
+	text-decoration: underline!important;
+}
+
+.scroll-to-top>i {
+	line-height: 45px;
+}
+
+.btnForm {
+	background-color: rgb(37, 51, 112);
+	color: white;
+	float: right;
+	height: 42px;
+	padding-top: 13px !important;
+}
+
+.btnRevient{
+	background-color: rgb(37, 51, 112);
+	color: white;
+	float: right;
+	height: 42px;
+	padding-top: 13px !important;
+}
+
+.tableHover:hover {
+	background-color: #eaedf8;
+	color: rgb(37, 51, 112);
+}
+
+.formTitleMargin {
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.inputMarginTop {
+	margin-top: -5px;
+}
+
+.inputForm {
+	height: 42px;
+}
+
+.formLeft {
+	float: left;
+	padding: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+}
+
+.cursor {
+	cursor: pointer;
+	text-decoration:none;
+	font-weight: 900;
+}
+
+.cursorDefault{
+	cursor: default;'
+}
+
+.formMargin {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.inputMarginRight {
+	margin-right: 30px;
+}
+/********************************* ripple ***************************************************/
+:root {
+	/* if u want to change the color of
+	 * the ripple change this value
+	*/ -
+	-color-ripple: rgba(255, 255, 255, 0.8);
+}
+
+.container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 50px;
+	width: 200px;
+	margin: auto;
+}
+
+*[data-animation="ripple"] {
+	/*Position relative is required*/
+	position: relative;
+	width: 100%;
+	display: block;
+	outline: none;
+	padding: 20px;
+	color: #fff !important;
+	box-sizing: border-box;
+	line-height: 14px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+	font-weight: bold;
+}
+
+*[data-animation="ripple"]:focus {
+	outline: none;
+}
+
+*[data-animation="ripple"]::selection {
+	background: transparent;
+	pointer-events: none;
+}
+
+td select {
+	margin: 0;
+	padding: 0 !important;
+	border: none !important;
+}
+
+tr:hover select {
+	background-color: #eaedf8;
+	transition: 0.28s all cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.selectTable:hover {
+	background-color: #eaedf8;
+}
+
+th{
+	text-align: left;
+}
+
+tr:hover input {
+	background-color: #eaedf8;
+}
+
+tr input {
+	border: none;
+}
+
+input:focus {
+	border: none;
+	outline: none;
+}
+
+form {
+	margin: 0px;
+}
+
+.edit{
+	width:100%;
+}
+.editable {
+	width: 100%;
+}
+
+.alignRight{
+	text-align: right!important;
+}
+li.active {
+	box-shadow: 0px 3px 16px -2px rgba(0, 0, 0, 0.25);
+}
+
+.nav-item {
+	transition: 0.7s all cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+* {
+	transition: 0.28s all cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.btn {
+	box-shadow: 0px 3px 4px -2px rgba(0, 0, 0, 0.65);
+}
+
+.py-3 {
+	padding: 2rem !important;
+}
+
+.borderThick{
+	border-width: 2px!important;
+    border-color: black!important;
+}
+
+h1, h2, h3, h4, h5 {
+	margin-bottom: 2rem;
+}
+
+#mainNav {
+	position: fixed;
+	width: 100vw;
+	z-index: 1000000;
+	box-shadow: 0px 3px 16px -2px rgba(0, 0, 0, 0.45);
+}
+
+#content {
+	display: table;
+	min-width: 900;
+	max-width: 1400px;
+}
+
+#content>div {
+	margin-top: 54px;
+}
+
+.nav-link {
+	font-weight: 400;
+}
+
+.h3Form {
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+.fastechInput, .fastechInput:focus {
+	border: 1px solid rgba(0, 0, 0, 0.15) !important;
+}
+
+.fastechTable{
+	margin-top: 150px!important;
+}
+.fastechTableProjetHeure{
+	margin-top: 300px;
+}
+#ccqs{
+	margin-top: -16px;
+	font-size: 13px;
+}
+#tblHeure{
+	font-size: 13px;
+}
+.fastechSpecDep{
+	margin-top: 75px!important;
+}
+.tdDeleteSpec{
+	width: 70px;
+}
